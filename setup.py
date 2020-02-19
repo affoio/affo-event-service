@@ -89,5 +89,6 @@ setup(
     setup_requires=["pytest-runner"],
     install_requires=install_requirements,
     tests_require=test_requirements,
+    include_package_data=True,
     entry_points={"console_scripts": ["affo-event-service = affo_event_service.cli:manager.run"]},
 )

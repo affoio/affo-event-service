@@ -1,3 +1,4 @@
+Flask-Script>=2.0.6
 celery>=4.2.1
 connexion>=2.2.0
 connexion-buzz>=0.2.1
